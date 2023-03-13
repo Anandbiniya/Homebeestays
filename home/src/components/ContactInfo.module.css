@@ -1,0 +1,19 @@
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactIcon {
+    margin-right: 10px;
+  }
+  
+  .contactText {
+    margin-right: 20px;
+  }
+  
+  .contactText a {
+    color: #000;
+    text-decoration: none;
+  }
+  
