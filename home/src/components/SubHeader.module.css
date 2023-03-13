@@ -1,0 +1,32 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .primaryNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navTrigger {
+    display: none;
+  }
+  
+  .left img {
+    height: 35px;
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .navTrigger {
+      display: block;
+    }
+  }
+  

@@ -1,4 +1,4 @@
-import styles from './HeaderChildComponent.module.css';
+import styles from "./HeaderChildComponent.module.css";
 
 function HeaderChildComponent() {
   return (
@@ -72,3 +72,4 @@ function HeaderChildComponent() {
   );
 }
 
+export default HeaderChildComponent;

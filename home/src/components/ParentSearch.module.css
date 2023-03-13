@@ -1,0 +1,14 @@
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .searchContainer > :first-child {
+    width: 25%;
+  }
+  
+  .searchContainer > :last-child {
+    flex: 1;
+  }
+  

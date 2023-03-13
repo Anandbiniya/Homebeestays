@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderChildComponent from "./HeaderChildComponent";
 import styles from "./HeaderComponent.module.css";
 
 function HeaderComponent() {
@@ -7,72 +8,8 @@ function HeaderComponent() {
       <div className="page-wrapper">
         <div id="page-header">
           <header>
-            <div className="container">
-              <div className="secondary-nav">
-                <div className="nav-trigger">
-                  <a
-                    data-toggle="collapse"
-                    href="#secondary-nav"
-                    aria-expanded="false"
-                    aria-controls="secondary-nav"
-                  >
-                    <i className="fa fa-user"></i>
-                  </a>
-                </div>
-                <div id="secondary-nav">
-                  <nav>
-                    <div className="left opacity-60">
-                      <a href="">
-                        <i className="fa fa-phone"></i>+1 781-903-1047
-                      </a>
-                      <a href="mailto:hello@example.com">
-                        <i className="fa fa-envelope"></i>hello@example.com
-                      </a>
-                    </div>
-
-                    <div className="right">
-                      <div className="element">
-                        <select>
-                          <option>$</option>
-                          <option>€</option>
-                        </select>
-                      </div>
-
-                      <div className="element">
-                        <a
-                          href="#tab-sign-in"
-                          data-toggle="modal"
-                          data-tab="true"
-                          data-target="#sign-in-register-modal"
-                        >
-                          Sign In
-                        </a>
-                      </div>
-
-                      <div className="element">
-                        <a
-                          href="#tab-register"
-                          data-toggle="modal"
-                          data-tab="true"
-                          data-target="#sign-in-register-modal"
-                        >
-                          Register
-                        </a>
-                      </div>
-
-                      <div className="element">
-                        <select>
-                          <option>EN</option>
-                          <option>DE</option>
-                          <option>RU</option>
-                          <option>ES</option>
-                        </select>
-                      </div>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </div>
+          
+            <HeaderChildComponent />
 
             {/* <hr> */}
             <div className="container">
